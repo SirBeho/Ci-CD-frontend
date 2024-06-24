@@ -29,7 +29,7 @@ export default function Users() {
               <a href={`/users/${user.id}`} className="text-blue-600 hover:underline">
                 {user.username}
               </a>
-              <p className="text-gray-600">Correo: {user.email}</p>
+              <p className="text-gray-600">Emial: {user.email}</p>
             </li>
           ))}
         </ul>
