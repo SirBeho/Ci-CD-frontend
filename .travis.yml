@@ -39,6 +39,5 @@ jobs:
         app: $AWS_ELASTIC_BEANSTALK_APP_NAME
         env: $AWS_ELASTIC_BEANSTALK_ENV_NAME
         bucket_name: $AWS_ELASTIC_BEANSTALK_BUCKET_NAME
-
         on:
           branch: master
